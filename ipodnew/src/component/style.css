@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.ipod {
+    border: 2px solid #9854e2;
+    padding: 12px;
+    border-radius: 12px;
+    width: 50vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    align-items:center;    
+}
+
+.card{
+    border: 2px solid #bc457e;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10%;
+    width: 20rem;
+    height: 15rem;
+}
+
+.circular {
+    position: relative;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    border: 2px solid #8d5c3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular button {
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: #e32179;
+    border: 1px solid #ccc;
+}
+
+.circular button:nth-child(1) { top: 10%; left: 50%; transform: translate(-50%, -50%); }  /* Top-center */
+.circular button:nth-child(2) { top: 50%; left: 10%; transform: translate(-50%, -50%); }  /* Left-center */
+.circular button:nth-child(3) { top: 50%; right: 10%; transform: translate(50%, -50%); }  /* Right-center */
+.circular button:nth-child(4) { bottom: 10%; left: 50%; transform: translate(-50%, 50%); }
