@@ -88,6 +88,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.active {
+    background-color: #29db5b;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 .menu ul {
     list-style-type: none;
     padding: 0;
